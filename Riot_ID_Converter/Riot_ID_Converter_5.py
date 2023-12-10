@@ -11,19 +11,22 @@ def riot_id_converter(riot_id_table, include_alts):
     for line in input_text.split('\n'):
         modified_line = line.strip()
 
+        #users with custom RIOT ID tag
         for riot_id, suffix_list in riot_id_table.items():
             
             if riot_id in line:
+                #includes only the main account of the users
                 if include_alts == 'N':
                     modified_line = suffix_list[0]
-                    
+                
+                #include all the accounts of the users
                 else:
                     modified_line = '\n'.join(suffix_list)
                 
                 output_lines.append(modified_line)
                 break
                     
-                
+        #users without a custom RIOT ID tag        
         else:
             modified_line += '#NA1'
             modified_line = modified_line[3:] 

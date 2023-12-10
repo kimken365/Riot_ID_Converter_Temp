@@ -5,6 +5,7 @@ def user_input():
     return user_input
 
 def riot_id_converter(riot_id_table, include_alts):
+    #copies from clipboard
     input_text = pyperclip.paste()
     output_lines = []
 
@@ -35,7 +36,7 @@ def riot_id_converter(riot_id_table, include_alts):
             output_lines.append(modified_line)
             
         
-
+    #saves to clipboard
     output_text = '\n'.join(output_lines)
     pyperclip.copy(output_text)
 

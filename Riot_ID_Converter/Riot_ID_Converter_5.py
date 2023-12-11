@@ -122,7 +122,8 @@ riot_id_table = {
                          ],
     'Rockabananza': ['Rockabananza#0001'
                      ],
-    'ryginltga': ['ryginltga#NA1', 
+    'ryginltga': ['ryginltga#NA1',
+                  'Hash#BBC',
                   #'Hashtag#NA2'
                   ], 
     'Rezzy': ['Rezzy#101'

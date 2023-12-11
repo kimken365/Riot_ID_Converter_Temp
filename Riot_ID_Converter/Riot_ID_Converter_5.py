@@ -147,7 +147,7 @@ riot_id_table = {
                      ],
     'Stollen': ['Stollen#00000'
                 ],
-    'Suyeonchan': ['Suyeonchan#00000'
+    'Suyeonchan': ['Suyeonchan#00000',
                    ],
     'SWAGMASTER83': ['SWAGMASTER83#FATFK'
                      ],

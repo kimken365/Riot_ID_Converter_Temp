@@ -78,6 +78,8 @@ riot_id_table = {
     'Danman fan 96': ['Marius#Aya',
                       'きえたい#1798'
                       ],
+    'Devi': ['Rena#Mei', 
+             ],
     'Dûnk': ['Dunk#NA2'
              ],
     'EVERYBODYKILLER': ['prodigy zzz#NA1',

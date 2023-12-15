@@ -69,6 +69,8 @@ riot_id_table = {
               ],
     'ChampBl': ['zzz#Nik'
                 ],
+    'CircasLoL': ['Circas#1876' ,
+                ],
     'Cloudjumper': ['Cloudjumper#CYDRA'
                     ],
     'Crab Degenerate': ['Crab Degenerate#CRAB'

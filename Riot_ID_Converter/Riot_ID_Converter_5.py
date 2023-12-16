@@ -118,7 +118,8 @@ riot_id_table = {
              ],
     'Matarra': ['Matarra#sad'
                 ],
-    'MrJimmyOG': ['Mrjimmyog#Glurp'
+    'MrJimmyOG': ['MrJimmyOG#NA1',
+                  'Mrjimmyog#Glurp'
                   ],
     'Pibly': ['pibly#0000'
               ],

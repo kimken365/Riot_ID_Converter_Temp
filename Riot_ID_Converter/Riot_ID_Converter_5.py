@@ -98,6 +98,8 @@ riot_id_table = {
                  ],
     'Imaginarium': ['neverlamb#bei'
                     ],
+    'in time': ['in time#0313',
+                ],
     'Irelia101': ['Rezzy#101'
                   ],
     'Irghaos': ['Irghaos#1738'
@@ -148,6 +150,8 @@ riot_id_table = {
                ],
     'Slimere': ['Slimere#BBC'
                 ],
+    'Sokeri EUW xD': ['skrillexdubbstep#edm',
+                      ],
     'SOVEREIGN444': ['Sovereign#BLM'
                      ],
     'Stollen': ['Stollen#00000'

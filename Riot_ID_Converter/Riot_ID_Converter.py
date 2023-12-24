@@ -123,6 +123,8 @@ riot_id_table = {
     'MrJimmyOG': ['MrJimmyOG#NA1',
                   'Mrjimmyog#Glurp'
                   ],
+    'Neco arcc': ['Tower Of God#Bam',
+                  ],
     'Pibly': ['pibly#0000'
               ],
     'remove assassins': ['Gio#2576'

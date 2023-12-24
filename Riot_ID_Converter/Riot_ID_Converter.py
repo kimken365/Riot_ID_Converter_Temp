@@ -120,6 +120,8 @@ riot_id_table = {
                   ],
     'LiterallyPotatoe': ['LiterallyPotatoe#tato'
                          ],
+    'l3lue': ['Blue#UU70',
+              ],
     'Maso': ['Maso#rita'
              ],
     'Matarra': ['Matarra#sad'
@@ -178,7 +180,7 @@ riot_id_table = {
                  ],
     'ThisGameIsJoever': ['ThisGameIsJoever#2319'
                          ],
-    'TSM GnomeSlayer': ['Pulbarizer Fan #NA1'
+    'TSM GnomeSlayer': ['Pulbarizer Fan#NA1'
                         ],
     'USC jjking': ['土黑娃 #NA300'
                    ],
@@ -195,8 +197,9 @@ riot_id_table = {
                ],
     'Z 4': ['Z 4#CLAP'
             ],
-    '545': ['big c#rng'
-            ]
+    '545': ['Pulbarizer Fan#RNG',
+            #'big c#rng'
+            ],
 }
 
 include_alts = user_input()

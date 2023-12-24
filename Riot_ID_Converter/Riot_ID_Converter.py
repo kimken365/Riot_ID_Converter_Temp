@@ -59,6 +59,8 @@ riot_id_table = {
     'baby princess': ['baby princess#hime',
                       '姐姐的貓#pet'
                       ],
+    'Baerus': ['Baerus#001',
+               ],
     'BANANA CREAM': ['hide on meds#1010'
                      ],
     'bbnomoola': ['bbnomoola#gravy'
@@ -73,6 +75,8 @@ riot_id_table = {
                 ],
     'Cloudjumper': ['Cloudjumper#CYDRA'
                     ],
+    'Corvus1': ['Corvus Crow#666',
+                ],
     'Crab Degenerate': ['Crab Degenerate#CRAB'
                         ],
     'Danman fan 96': ['Marius#Aya',
@@ -140,6 +144,8 @@ riot_id_table = {
     'Richard Socks ON': ['C Tier Fill#Socks'
                          ],
     'rohan': ['rohan#9999'
+              ],
+    'R0YSH': ['K M#0666',
               ],
     'Samba': ['Samba#555'
               ],

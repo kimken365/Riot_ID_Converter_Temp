@@ -174,12 +174,16 @@ riot_id_table = {
                      ],
     'Teal Frost': ['thai tea#4444'
                    ],
+    'TeamGiveMeC': ['downr#cncr',
+                    ],
     'Theworldisunfair': ['volumedown#444'
                          ],
     'The Noxian': ['counter#Noxus'
                    ],
     'The y45h': ['y45hthed0ng3r#y45h'
                  ],
+    'thigh high sIut': ['dopamine#vice',
+                        ],
     'ThisGameIsJoever': ['ThisGameIsJoever#2319'
                          ],
     'TSM GnomeSlayer': ['Pulbarizer Fan#NA1'

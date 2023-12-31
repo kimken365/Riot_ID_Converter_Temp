@@ -133,6 +133,8 @@ riot_id_table = {
                   ],
     'Pibly': ['pibly#0000'
               ],
+    'PropertyOfDrew': ['PropertyOfDrew#00000',
+                       ],
     'remove assassins': ['Gio#2576'
                          ],
     'Rockabananza': ['Rockabananza#0001'

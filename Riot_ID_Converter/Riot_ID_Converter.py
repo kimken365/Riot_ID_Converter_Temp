@@ -29,7 +29,7 @@ def riot_id_converter(riot_id_table, include_alts):
                     
         #users without a custom RIOT ID tag        
         else:
-            modified_line += '#NA1'
+            #modified_line += '#NA1'
             modified_line = modified_line[3:] 
             if modified_line and modified_line[0].isspace():
                 modified_line = modified_line[2:]

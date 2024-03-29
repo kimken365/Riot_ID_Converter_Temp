@@ -13,7 +13,7 @@ def riot_id_converter(riot_id_table, include_alts):
         modified_line = line.strip()
 
         #users with ALTS
-        for riot_id, suffix_list in riot_id_table.items():
+        for riot_id, suffix_list in riot_accounts_table.items():
             
             if riot_id in line:
                 #includes only the main account of the users
@@ -41,7 +41,7 @@ def riot_id_converter(riot_id_table, include_alts):
     pyperclip.copy(output_text)
 
 #add new usernames here
-riot_id_table = {
+riot_accounts_table = {
     'Suyeonchan': ['Suyeonchan#00000',
                    ],    
 }

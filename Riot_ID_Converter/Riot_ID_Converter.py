@@ -1,7 +1,7 @@
 import pyperclip
 
 def user_input():
-    user_input = input(" ")
+    user_input = ""
     return user_input
     #disabling input function for now
     #user_input = input("Type Y to include alts. Otherwise press enter: ")

@@ -1,8 +1,11 @@
 import pyperclip
 
 def user_input():
-    user_input = input("Type Y to include alts. Otherwise press enter: ")
+    user_input = input(" ")
     return user_input
+    #disabling input function for now
+    #user_input = input("Type Y to include alts. Otherwise press enter: ")
+    #return user_input
 
 def riot_id_converter(riot_id_table, include_alts):
     #copies from clipboard

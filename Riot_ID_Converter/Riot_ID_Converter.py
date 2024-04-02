@@ -1,7 +1,7 @@
 import pyperclip
 
 def user_input():
-    user_input = input("Type N to exclude alts. Otherwise press enter: ")
+    user_input = input("Type Y to include alts. Otherwise press enter: ")
     return user_input
 
 def riot_id_converter(riot_id_table, include_alts):
@@ -16,16 +16,16 @@ def riot_id_converter(riot_id_table, include_alts):
         for riot_id, suffix_list in riot_accounts_table.items():
             
             if riot_id in line:
-                #includes only the main account of the users
-                if include_alts == 'N':
-                    modified_line = suffix_list[0]
-                
-                #include all the accounts of the users
-                else:
+                # include all the accounts of the users
+                if include_alts != 'Y':
                     modified_line = '\n'.join(suffix_list)
-                
+                # includes only the main account of the users
+                else:
+                    modified_line = suffix_list[0]
+    
                 output_lines.append(modified_line)
                 break
+
                     
         #users without ALTS  
         else:

@@ -48,4 +48,4 @@ riot_accounts_table = {
 
 include_alts = user_input()
 
-riot_id_converter(riot_id_table, include_alts)
+riot_id_converter(riot_accounts_table, include_alts)

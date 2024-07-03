@@ -32,11 +32,15 @@ def riot_id_converter(riot_id_table, include_alts):
                     
         #users without ALTS  
         else:
-            
-            modified_line = modified_line[3:] 
-            if modified_line and modified_line[0].isspace():
-                modified_line = modified_line[2:]
-            output_lines.append(modified_line)
+            if ':' in modified_line(':') >= 2:
+                first_colon_index = modified_line.find(':')
+                second_colon_index = modified_line.find(':', first_colon_index + 1)
+                modified_line = modified_line[second_colon_index + 1:]
+            else:
+                modified_line = modified_line[3:] 
+                if modified_line and modified_line[0].isspace():
+                    modified_line = modified_line[2:]
+                output_lines.append(modified_line)
             
         
     #saves to clipboard
